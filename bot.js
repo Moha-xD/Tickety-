@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
- var prefix = "#"
+ var prefix = "-"
  
 if (message.content.toLowerCase().startsWith(prefix + `new`)) {
     const reason = message.content.split(" ").slice(1).join(" ");
